@@ -1,28 +1,33 @@
-# NH Girls Lacrosse Community Website
+# NH Girls Lacrosse Community — GitHub Replacement
 
-A responsive one-page website prototype for the New Hampshire girls lacrosse community.
+Upload these items to the root of `Scottmill75/NHGirlsLacrosseCommunity.org`:
 
-## Included
-- Responsive desktop and mobile layout
-- Custom New Hampshire / lacrosse-inspired visual design
-- Program pathways
-- Community event calendar
-- Player spotlight section
-- Resources for players, parents, coaches, and programs
-- Join form and event submission modal
-- No framework required
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- the complete `images` folder
 
-## Open locally
-Double-click `index.html`, or open it in any web browser.
+## Replace the current site
+1. Download and unzip this package.
+2. Open the GitHub repository.
+3. Click **Add file → Upload files**.
+4. Drag all files and the `images` folder into GitHub.
+5. Select **Commit directly to the main branch**.
+6. Click **Commit changes**.
+7. GitHub Pages should update within a few minutes.
 
-## Publish options
-This site can be uploaded to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Squarespace using custom code
-- WordPress as a custom template
-- A standard web hosting account
+## Add photographs
+Upload JPG or PNG files to `images/`. Reference them with:
+`<img src="images/photo-name.jpg" alt="Description">`
 
-## Before launch
-Replace the sample events, connect the forms, add real social media links, and add the official logo, program directory, and contact information.
+## Edit articles
+Open `script.js` and edit the `data` article entries.
+
+## Edit club links
+Open `index.html` and locate the section with `id="clubs"`.
+
+## Contact email
+Replace `info@nhgirlslacrossecommunity.org` in `script.js` with your active email address.
+
+Always obtain permission before posting photographs or identifying details involving minors.

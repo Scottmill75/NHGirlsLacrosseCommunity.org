@@ -1,333 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A statewide community hub for New Hampshire girls lacrosse players, families, coaches, clubs, and programs." />
-  <title>NH Girls Lacrosse Community | Live Free or Lax</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="New Hampshire Girls Lacrosse Community">
+<title>NH Girls Lacrosse Community | Live Free or Lax</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="announcement">
-      <span>🏔️ Built for players, families, coaches, and clubs across New Hampshire</span>
+<header>
+  <nav class="nav wrap">
+    <a class="brand" href="#home"><img src="images/logo.png" alt="NH Girls Lacrosse Community"><span>NH Girls Lacrosse</span></a>
+    <button class="menuBtn" aria-expanded="false">☰</button>
+    <div class="links">
+      <a href="#home">Home</a><a href="#about">About</a>
+      <div class="drop"><button>Programs ▾</button>
+        <div class="mega">
+          <a href="#clubs"><span class="thumb t1"></span><b>Local Clubs</b><small>Travel and development programs</small></a>
+          <a href="#resources"><span class="thumb t2"></span><b>Youth Programs</b><small>New-player resources</small></a>
+          <a href="#resources"><span class="thumb t3"></span><b>School Lacrosse</b><small>Middle and high school pathways</small></a>
+        </div>
+      </div>
+      <a href="#news">News</a><a href="#events">Events</a>
+      <div class="drop"><button>Media ▾</button>
+        <div class="mega">
+          <a href="#spotlight"><span class="thumb t4"></span><b>Player Spotlights</b><small>Celebrate NH athletes</small></a>
+          <a href="#gallery"><span class="thumb t5"></span><b>Photo Gallery</b><small>Teams and tournaments</small></a>
+          <a href="#news"><span class="thumb t6"></span><b>Stories</b><small>News and announcements</small></a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
     </div>
-    <nav class="nav container">
-      <a class="brand" href="#top" aria-label="NH Girls Lacrosse Community home">
-        <img src="NH_Girls_Lacrosse_Logo.png" alt="NH Girls Lacrosse Community Logo" class="brand-logo">
-        <span class="brand-copy">
-          <strong>Girls Lacrosse</strong>
-          <small>Community</small>
-        </span>
-      </a>
+  </nav>
+</header>
 
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+<main>
+<section class="hero" id="home">
+  <div class="wrap heroGrid">
+    <img class="heroLogo" src="images/logo.png" alt="Live Free or Lax">
+    <div><span class="eyebrow">One community. One game.</span><h1>LIVE FREE<br><em>OR LAX.</em></h1>
+    <p>Connecting players, families, coaches, clubs, schools, officials, and supporters across New Hampshire.</p>
+    <div class="actions"><a class="btn" href="#clubs">Find a Club</a><a class="btn ghost" href="#about">Our Mission</a></div></div>
+  </div>
+</section>
 
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#programs">Programs</a>
-        <a href="#events">Events</a>
-        <a href="#resources">Resources</a>
-        <a href="#spotlight">Player Spotlight</a>
-        <a class="button button-small" href="#join">Join the Community</a>
-      </div>
-    </nav>
-  </header>
+<section class="quick"><div class="wrap quickGrid">
+<a href="#clubs">🥍 <b>Find a Club</b></a><a href="#events">📅 <b>Events</b></a><a href="#spotlight">★ <b>Player Spotlights</b></a><a href="#resources">▤ <b>Resources</b></a><a href="#contact">♥ <b>Support Community</b></a>
+</div></section>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-pattern"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Live Free or Lax</span>
-          <h1>One community.<br><span>Every player.</span></h1>
-          <p>
-            Connecting New Hampshire girls lacrosse players, parents, coaches,
-            clubs, schools, and supporters—from first stick to varsity.
-          </p>
-          <div class="hero-actions">
-            <a class="button" href="#join">Get Involved</a>
-            <a class="button button-ghost" href="#programs">Find a Program</a>
-          </div>
-          <div class="hero-stats">
-            <div><strong>Statewide</strong><span>Community</span></div>
-            <div><strong>K–12</strong><span>Player Support</span></div>
-            <div><strong>All Levels</strong><span>Welcome</span></div>
-          </div>
-        </div>
+<section class="section cream" id="about"><div class="wrap two">
+<div><span class="label">Our Mission</span><h2>STRONG PLAYERS.<br>STRONG TEAMS.<br><em>STRONGER TOGETHER.</em></h2></div>
+<div class="copy"><p>New Hampshire Girls Lacrosse Community is an independent statewide hub created to celebrate athletes, connect families with programs, promote events, and grow the girls’ game.</p><p>Every player—from first stick through high school—deserves a place to learn, belong, compete, and lead.</p></div>
+</div></section>
 
-        <div class="hero-art" aria-label="New Hampshire girls lacrosse community graphic">
-          <img src="NH_Girls_Lacrosse_Logo.png" alt="NH Girls Lacrosse Community Logo Badge" class="hero-logo">
-        </div>
-      </div>
-    </section>
+<section class="section" id="news"><div class="wrap">
+<div class="heading"><div><span class="label">Latest Stories</span><h2>COMMUNITY NEWS</h2></div></div>
+<div class="cards">
+<article><div class="cardImg c1"><span>JUL 26</span></div><div class="pad"><small>EVENTS</small><h3>Summer Showcase Announced</h3><p>A statewide gathering for athletes, families, coaches, and programs.</p><button class="read" data-id="showcase">Read article →</button></div></article>
+<article><div class="cardImg c2"><span>JUL 18</span></div><div class="pad"><small>PLAYER SPOTLIGHT</small><h3>Meet Finley Milligan</h3><p>A 2034 midfielder whose energy and effort embody the community.</p><button class="read" data-id="finley">Read article →</button></div></article>
+<article><div class="cardImg c3"><span>JUL 15</span></div><div class="pad"><small>CLUB NEWS</small><h3>Tournament Weekend</h3><p>Celebrating athletes, coaches, officials, volunteers, and families.</p><button class="read" data-id="tournament">Read article →</button></div></article>
+</div></div></section>
 
-    <section class="community-strip">
-      <div class="container strip-grid">
-        <div><span>01</span><strong>PLAY</strong><small>Learn and compete</small></div>
-        <div><span>02</span><strong>CONNECT</strong><small>Build relationships</small></div>
-        <div><span>03</span><strong>GROW</strong><small>Develop confidence</small></div>
-        <div><span>04</span><strong>LEAD</strong><small>Strengthen the game</small></div>
-      </div>
-    </section>
+<section class="section dark" id="events"><div class="wrap two">
+<div><span class="label gold">Community Calendar</span><h2>UPCOMING EVENTS</h2><p>Use this section for clinics, camps, tryouts, tournaments, and fundraisers.</p><a class="btn light" href="#contact">Submit an Event</a></div>
+<div class="events">
+<div><time><b>26</b>JUL</time><span><small>SHOWCASE</small><h3>NH Summer Showcase</h3><p>Manchester, NH</p></span></div>
+<div><time><b>02</b>AUG</time><span><small>COACH EDUCATION</small><h3>Coaches Development Clinic</h3><p>Southern New Hampshire</p></span></div>
+<div><time><b>09</b>AUG</time><span><small>YOUTH CLINIC</small><h3>Girls Skills & Confidence Clinic</h3><p>Exeter, NH</p></span></div>
+</div></div></section>
 
-    <section id="about" class="section about">
-      <div class="container split">
-        <div>
-          <span class="section-kicker">Our Mission</span>
-          <h2>Growing the game, together.</h2>
-        </div>
-        <div class="mission-copy">
-          <p>
-            NH Girls Lacrosse Community is a shared space for celebrating players,
-            promoting programs, sharing resources, and helping every athlete find
-            a place to learn, belong, and compete.
-          </p>
-          <p>
-            We believe the strongest future for girls lacrosse begins with
-            collaboration between youth organizations, schools, coaches, clubs,
-            officials, families, and community partners.
-          </p>
-        </div>
-      </div>
-    </section>
+<section class="section cream" id="clubs"><div class="wrap">
+<div class="heading center"><div><span class="label">Explore Programs</span><h2>LOCAL LACROSSE CLUBS</h2><p>Visit official program websites for teams, tryouts, clinics, camps, and registration.</p></div></div>
+<div class="clubs">
+<a href="https://4leaflax.org/" target="_blank"><i>4L</i><h3>4 Leaf Lacrosse</h3><p>Club teams serving New Hampshire and Northern New England.</p><b>Visit official site ↗</b></a>
+<a href="https://girls.nhtomahawks.com/" target="_blank"><i>NHT</i><h3>NH Tomahawks Girls</h3><p>Elite teams, clinics, leagues, and recruiting support.</p><b>Visit official site ↗</b></a>
+<a href="https://www.seacoastlacrosse.org/" target="_blank"><i>SLC</i><h3>Seacoast Lacrosse</h3><p>Youth lacrosse serving Portsmouth-area communities.</p><b>Visit official site ↗</b></a>
+<a href="https://www.nhyla.org/" target="_blank"><i>NHYLA</i><h3>NH Youth Lacrosse</h3><p>Town programs, schedules, rules, and league resources.</p><b>Visit official site ↗</b></a>
+<a href="https://www.usalacrosse.com/" target="_blank"><i>USA</i><h3>USA Lacrosse</h3><p>Rules, safety, coaching, and player development resources.</p><b>Visit official site ↗</b></a>
+<a href="#contact" class="add"><i>+</i><h3>Add Your Program</h3><p>Submit another New Hampshire club or town program.</p><b>Submit a club →</b></a>
+</div><p class="note">Directory links are provided for community information and do not imply affiliation or endorsement.</p>
+</div></section>
 
-    <section id="programs" class="section programs">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-kicker">Find Your Place</span>
-            <h2>Programs for every stage.</h2>
-          </div>
-          <p>Explore pathways that help players begin, develop, compete, and lead.</p>
-        </div>
+<section class="section" id="spotlight"><div class="wrap two spotlight">
+<div class="logoPanel"><img src="images/logo.png" alt=""><strong>26</strong></div>
+<div><span class="label">Player Spotlight</span><h2>EVERY ATHLETE HAS A STORY.</h2><p>Celebrate accomplishments, leadership, academics, community service, and love of the game.</p><blockquote><b>Finley Milligan</b><span>Midfield · Class of 2034 · New Hampshire</span></blockquote><a class="btn" href="#contact">Nominate a Player</a></div>
+</div></section>
 
-        <div class="card-grid">
-          <article class="feature-card">
-            <div class="icon">🥍</div>
-            <span class="card-tag">BEGINNER</span>
-            <h3>Youth Lacrosse</h3>
-            <p>Town programs, introductory clinics, equipment guidance, and parent resources for new players.</p>
-            <a href="#join">Find youth opportunities →</a>
-          </article>
+<section class="section cream" id="gallery"><div class="wrap"><div class="heading"><div><span class="label">Community Photos</span><h2>PHOTO GALLERY</h2></div><a href="#contact">Submit photos →</a></div>
+<div class="gallery"><figure class="g1"><figcaption>Game Day</figcaption></figure><figure class="g2"><figcaption>Teamwork</figcaption></figure><figure class="g3"><figcaption>Training</figcaption></figure><figure class="g4"><figcaption>Community</figcaption></figure><figure class="g5"><img src="images/logo.png" alt=""><figcaption>Live Free or Lax</figcaption></figure></div>
+</div></section>
 
-          <article class="feature-card featured">
-            <div class="icon">⚡</div>
-            <span class="card-tag">DEVELOPMENT</span>
-            <h3>Club & Travel</h3>
-            <p>Competitive development, seasonal training, tournaments, showcases, and recruiting preparation.</p>
-            <a href="#join">Explore club programs →</a>
-          </article>
+<section class="section" id="resources"><div class="wrap"><div class="heading center"><div><span class="label">Support the Whole Athlete</span><h2>COMMUNITY RESOURCES</h2></div></div>
+<div class="resources"><article><b>01</b><h3>Players</h3><p>Skills, confidence, wellness, leadership, and recruiting.</p></article><article><b>02</b><h3>Parents</h3><p>Rules, equipment, safety, and positive support.</p></article><article><b>03</b><h3>Coaches</h3><p>Practice plans, communication, culture, and education.</p></article><article><b>04</b><h3>Programs</h3><p>Promote events, registration, and participation.</p></article></div>
+</div></section>
 
-          <article class="feature-card">
-            <div class="icon">🏫</div>
-            <span class="card-tag">SCHOOL</span>
-            <h3>Middle & High School</h3>
-            <p>Team connections, tryout preparation, schedules, player recognition, and varsity resources.</p>
-            <a href="#join">View school resources →</a>
-          </article>
-        </div>
-      </div>
-    </section>
+<section class="join"><div class="wrap joinGrid"><img src="images/logo.png" alt=""><div><span class="label gold">Join the Community</span><h2>HELP GROW GIRLS LACROSSE IN NEW HAMPSHIRE.</h2></div><a class="btn light" href="#contact">Get Involved</a></div></section>
 
-    <section id="events" class="section events">
-      <div class="container">
-        <div class="section-heading light">
-          <div>
-            <span class="section-kicker">Community Calendar</span>
-            <h2>What's happening in New Hampshire.</h2>
-          </div>
-          <button class="button button-light" id="openEventForm">Submit an Event</button>
-        </div>
+<section class="section" id="contact"><div class="wrap two">
+<div><span class="label">Contact</span><h2>SHARE YOUR STORY.</h2><p>Submit club listings, articles, events, player nominations, photos, corrections, or partnership ideas.</p></div>
+<form id="contactForm"><label>Name<input name="name" required></label><label>Email<input type="email" name="email" required></label><label>Topic<select name="topic" required><option value="">Select one</option><option>Submit an Article</option><option>Submit Photos</option><option>Add a Club or Program</option><option>Submit an Event</option><option>Nominate a Player</option></select></label><label>Message<textarea name="message" rows="6" required></textarea></label><button class="btn" type="submit">Prepare Email</button><p id="status"></p></form>
+</div></section>
+</main>
 
-        <div class="event-grid">
-          <article class="event-card">
-            <div class="event-date"><strong>12</strong><span>APR</span></div>
-            <div>
-              <span class="event-type">YOUTH CLINIC</span>
-              <h3>Spring Stick Skills Kickoff</h3>
-              <p>Manchester, NH · Grades 3–8</p>
-            </div>
-          </article>
+<footer><div class="wrap foot"><div><img src="images/logo.png" alt=""><p>Connecting and celebrating New Hampshire girls lacrosse.</p></div><div><b>Explore</b><a href="#news">News</a><a href="#events">Events</a><a href="#clubs">Clubs</a></div><div><b>Community</b><a href="#spotlight">Spotlights</a><a href="#resources">Resources</a><a href="#contact">Contact</a></div></div><div class="wrap bottom">© 2026 New Hampshire Girls Lacrosse Community <span>Live Free or Lax</span></div></footer>
 
-          <article class="event-card">
-            <div class="event-date"><strong>03</strong><span>MAY</span></div>
-            <div>
-              <span class="event-type">COMMUNITY DAY</span>
-              <h3>NH Girls Lacrosse Celebration</h3>
-              <p>Concord, NH · All ages</p>
-            </div>
-          </article>
-
-          <article class="event-card">
-            <div class="event-date"><strong>21</strong><span>JUN</span></div>
-            <div>
-              <span class="event-type">SHOWCASE</span>
-              <h3>603 Summer Player Showcase</h3>
-              <p>Southern New Hampshire · Grades 8–12</p>
-            </div>
-          </article>
-        </div>
-        <p class="demo-note">Sample events shown for prototype purposes.</p>
-      </div>
-    </section>
-
-    <section id="resources" class="section resources">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <span class="section-kicker">Community Resources</span>
-            <h2>Support beyond the field.</h2>
-          </div>
-        </div>
-
-        <div class="resource-grid">
-          <a class="resource-card" href="#join">
-            <span>01</span>
-            <h3>For Players</h3>
-            <p>Skill development, confidence, wellness, recruiting, and leadership.</p>
-          </a>
-          <a class="resource-card" href="#join">
-            <span>02</span>
-            <h3>For Parents</h3>
-            <p>Equipment, rules, safety, club selection, and supporting athletes.</p>
-          </a>
-          <a class="resource-card" href="#join">
-            <span>03</span>
-            <h3>For Coaches</h3>
-            <p>Practice plans, development standards, communication, and culture.</p>
-          </a>
-          <a class="resource-card" href="#join">
-            <span>04</span>
-            <h3>For Programs</h3>
-            <p>Promote events, share openings, recruit coaches, and grow participation.</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section id="spotlight" class="section spotlight">
-      <div class="container spotlight-grid">
-        <div class="spotlight-photo">
-          <div class="jersey-number">26</div>
-          <div class="spotlight-label">PLAYER SPOTLIGHT</div>
-        </div>
-        <div class="spotlight-copy">
-          <span class="section-kicker">Celebrate the Players</span>
-          <h2>Every athlete has a story.</h2>
-          <p>
-            Highlight player accomplishments, academic success, leadership,
-            community service, milestone moments, and love of the game.
-          </p>
-          <div class="player-example">
-            <strong>Finley Milligan</strong>
-            <span>Midfield · Class of 2034 · New Hampshire</span>
-          </div>
-          <a class="button" href="#join">Nominate a Player</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="values">
-      <div class="container values-grid">
-        <div>
-          <span class="section-kicker">Our Community Standard</span>
-          <h2>Play hard. Lead well. Lift others.</h2>
-        </div>
-        <div class="values-list">
-          <div><strong>Respect</strong><span>Honor teammates, opponents, officials, and the game.</span></div>
-          <div><strong>Confidence</strong><span>Help athletes believe in their voice and ability.</span></div>
-          <div><strong>Belonging</strong><span>Create a welcoming community for every player.</span></div>
-          <div><strong>Growth</strong><span>Develop skills, character, leadership, and resilience.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="join" class="section join">
-      <div class="container join-card">
-        <div>
-          <span class="section-kicker">Join the Community</span>
-          <h2>Help grow girls lacrosse in New Hampshire.</h2>
-          <p>Share your program, submit an event, nominate a player, volunteer, sponsor, or stay connected.</p>
-        </div>
-        <form class="join-form" id="joinForm">
-          <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" placeholder="you@example.com" required>
-          </label>
-          <label>
-            I am a...
-            <select name="role" required>
-              <option value="">Choose one</option>
-              <option>Player</option>
-              <option>Parent or Guardian</option>
-              <option>Coach</option>
-              <option>Program Director</option>
-              <option>Official</option>
-              <option>Community Supporter</option>
-            </select>
-          </label>
-          <button class="button" type="submit">Join Now</button>
-          <p class="form-status" id="formStatus"></p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="NH_Girls_Lacrosse_Logo.png" alt="NH Girls Lacrosse Community Logo" class="footer-logo">
-        <div><strong>Girls Lacrosse Community</strong><small>Live Free or Lax</small></div>
-      </div>
-      <div>
-        <strong>Explore</strong>
-        <a href="#programs">Programs</a>
-        <a href="#events">Events</a>
-        <a href="#resources">Resources</a>
-      </div>
-      <div>
-        <strong>Connect</strong>
-        <a href="#join">Join</a>
-        <a href="#join">Submit an Event</a>
-        <a href="#join">Nominate a Player</a>
-      </div>
-      <div>
-        <strong>Follow</strong>
-        <a href="#">Instagram</a>
-        <a href="#">Facebook</a>
-        <a href="#">YouTube</a>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <span>© 2026 NH Girls Lacrosse Community</span>
-      <span>Built for the 603.</span>
-    </div>
-  </footer>
-
-  <dialog id="eventDialog">
-    <form method="dialog" class="dialog-card">
-      <button class="dialog-close" aria-label="Close">×</button>
-      <span class="section-kicker">Community Calendar</span>
-      <h2>Submit an Event</h2>
-      <p>This prototype form can be connected to Google Forms, Airtable, or a website database.</p>
-      <label>Event name<input type="text" placeholder="Event name"></label>
-      <label>Location<input type="text" placeholder="City, NH"></label>
-      <label>Date<input type="date"></label>
-      <label>Contact email<input type="email" placeholder="contact@example.com"></label>
-      <button class="button" value="close">Save Draft</button>
-    </form>
-  </dialog>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<dialog><button class="close">×</button><small id="artCat"></small><h2 id="artTitle"></h2><p id="artMeta"></p><div id="artBody"></div></dialog>
+<script src="script.js"></script>
+</body></html>
